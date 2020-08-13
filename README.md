@@ -36,6 +36,30 @@ In addition to the `migrations` and `seeding` scripts, write a data access file 
 
 Organize and name your files anyway you see fit.
 
+
+## TODO 
+[x] - npm i
+[x] - npm express
+[x] - npm knex
+    [x]- create knex file
+[x] - create & setup
+    [x] - index.js
+    [x] - server.js
+    [x] -dbConfig
+
+[x] - Create migrations
+    [x] - create tables from drafted DB
+    [x] - Check SQL lite
+    
+[] Create seeds
+    [] - fake data
+    [] - test on SQL lite
+[] create data acces endpoints
+    [] - getRecipes()
+    [] - getShoppingList(recipe_id)
+    [] - getInstructions(recipe_id)
+
+
 ## Stretch Problem
 
 Build the following endpoints. Write any additional data access helpers as needed.
